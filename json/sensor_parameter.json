@@ -1,0 +1,107 @@
+[
+    {
+        "temperature": {
+            "offset": 0,
+            "size": 10,
+            "range": {
+                "min": 0,
+                "max": 1000
+            },
+            "scale": {
+                "min": -40,
+                "max": 60
+            },
+            "unit": "degree"
+        }
+    },
+    {
+        "humidity": {
+            "offset": 10,
+            "size": 8,
+            "range": {
+                "min": 0,
+                "max": 200
+            },
+            "scale": {
+                "min": 0,
+                "max": 100
+            },
+            "unit": "%"
+        }
+    },
+    {
+        "illumination": {
+            "offset": 18,
+            "size": 17,
+            "range": {
+                "min": 0,
+                "max": 100000
+            },
+            "scale": {
+                "min": 0,
+                "max": 100000
+            },
+            "unit": "lx"
+        }
+    },
+    {
+        "acceleration_status": {
+            "offset": 35,
+            "size": 2,
+            "range": {
+                "min": 0,
+                "max": 3
+            },
+            "scale": {
+                "min": 0,
+                "max": 3
+            },
+            "unit": ""
+        }
+    },
+    {
+        "acceleration_x": {
+            "offset": 37,
+            "size": 10,
+            "range": {
+                "min": 0,
+                "max": 1000
+            },
+            "scale": {
+                "min": -2.5,
+                "max": 2.5
+            },
+            "unit": "g"
+        }
+    },
+    {
+        "acceleration_y": {
+            "offset": 47,
+            "size": 10,
+            "range": {
+                "min": 0,
+                "max": 1000
+            },
+            "scale": {
+                "min": -2.5,
+                "max": 2.5
+            },
+            "unit": "g"
+        }
+    },
+    {
+        "acceleration_z": {
+            "offset": 57,
+            "size": 10,
+            "range": {
+                "min": 0,
+                "max": 1000
+            },
+            "scale": {
+                "min": -2.5,
+                "max": 2.5
+            },
+            "unit": "g"
+        }
+    }
+]
